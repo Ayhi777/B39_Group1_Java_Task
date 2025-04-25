@@ -1,6 +1,6 @@
-package Mustafa;
+package Betul;
 
-public class Week01_reversString {
+public class Week01_OddOrEven {
 
     public static void main(String[] args) {
 

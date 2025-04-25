@@ -1,6 +1,7 @@
-package Arafat;
+package Bahtiyar;
 
-public class Week01_reversString {
+public class Week01_OddOrEven {
+
     public static void main(String[] args) {
 
         oddOrEven(241);
@@ -20,4 +21,3 @@ public class Week01_reversString {
     }
 
 }
-
