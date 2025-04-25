@@ -3,6 +3,8 @@ package Murat;
 public class Week01_OddOrEven {
     public static void main(String[] args) {
         oddOrEven(20);
+        oddOrEven(21);
+        oddOrEven(0);
 
     }
 
