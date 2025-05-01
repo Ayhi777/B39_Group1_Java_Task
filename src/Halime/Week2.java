@@ -4,18 +4,14 @@ public class Week2 {
     public static void main(String[] args) {
 
 
-        String str = "apple";
+        String original = "apple";
 
-        StringBuilder reversed = new StringBuilder();
+        String reversed = new StringBuilder(original).reverse().toString();
 
-        for (int i = str.length() - 1; i >= 0; i--) {
-
-            reversed.append(str.charAt(i));
-
-        }
 
         System.out.println(reversed);
 
     }
+
 
 }
