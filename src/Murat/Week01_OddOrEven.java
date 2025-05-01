@@ -7,6 +7,7 @@ public class Week01_OddOrEven {
         oddOrEven(0);
         oddOrEven(-2);
         oddOrEven(-21);
+        oddOrEven(-123);
 
     }
 
