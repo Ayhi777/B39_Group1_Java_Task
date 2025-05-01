@@ -21,6 +21,5 @@ public class Week01_OddOrEven {
 
 
         }
-
     }
 }
