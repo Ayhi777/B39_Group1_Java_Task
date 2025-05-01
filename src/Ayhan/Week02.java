@@ -7,15 +7,15 @@ public class Week02 {
             System.out.print(finra(i) + " ");
         }
     }
-    public static String finra(int num){
-        if(num % 3 == 0 && num % 5 == 0){
+    public static String finra(int num) {
+        if (num % 3 == 0 && num % 5 == 0) {
             return "FINRA";
-        }else if(num % 3 == 0){
+        } else if (num % 3 == 0) {
             return "FIN";
-        }else if(num % 5 == 0){
+        } else if (num % 5 == 0) {
             return "RA";
-        }else{
+        } else {
             return String.valueOf(num);
         }
     }
-}
+    }
