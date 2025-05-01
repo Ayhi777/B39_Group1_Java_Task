@@ -6,7 +6,7 @@ public class Week01_OddOrEven {
 
         oddOrEven(241);
         oddOrEven(21);
-        oddOrEven(54);
+        oddOrEven(52);
 
 
     }
