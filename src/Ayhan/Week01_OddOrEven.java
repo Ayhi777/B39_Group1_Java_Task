@@ -8,7 +8,6 @@ public class Week01_OddOrEven {
         oddOrEven(21);
         oddOrEven(541);
 
-
     }
 
     public static void oddOrEven(int num) {
@@ -19,8 +18,7 @@ public class Week01_OddOrEven {
         } else {
             System.out.println(num + " is a zero");
 
-
         }
-
     }
 }
+
