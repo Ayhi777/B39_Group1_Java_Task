@@ -19,6 +19,7 @@ public class Week02_Finra {
             return "RA";
         }else{
             return String.valueOf(num);
+
         }
     }
 }
