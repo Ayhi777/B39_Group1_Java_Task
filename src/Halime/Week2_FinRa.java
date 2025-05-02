@@ -7,16 +7,16 @@ public class Week2_FinRa {
     }
 
 
-    public static void printFinRa(int start, int end) {
-        for (int i = start; i <= end; i++) {
+    public static void printFinRa(int num1, int num2) {
+        for (int i = 1; i <= 30; i++) {
             if (i % 15 == 0) {
-                System.out.println("FinRa");
+                System.out.print("FinRa" + " ");
             } else if (i % 3 == 0) {
-                System.out.println("Fin");
+                System.out.print("Fin" + " ");
             } else if (i % 5 == 0) {
-                System.out.println("Ra");
+                System.out.print("Ra" + " ");
             } else {
-                System.out.println(i);
+                System.out.print(i + " ");
             }
         }
     }
