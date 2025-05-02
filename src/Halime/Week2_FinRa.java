@@ -2,7 +2,7 @@ package Halime;
 
 public class Week2_FinRa {
     public static void main(String[] args) {
-        printFinRa(1, 33);
+        printFinRa(1, 30);
 
     }
 
