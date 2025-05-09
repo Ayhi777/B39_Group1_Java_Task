@@ -1,6 +1,7 @@
-package Halime;
+package Begum;
 
-public class Week01_OddOrEven {
+public class Week2_FinRa {
+
     public static void main(String[] args) {
         printFinRa(1, 30);
         printFinRa(5, 25);
