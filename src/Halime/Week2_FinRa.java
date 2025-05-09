@@ -8,7 +8,7 @@ public class Week2_FinRa {
 
 
     public static void printFinRa(int num1, int num2) {
-        for (int i = 1; i <= 30; i++) {
+        for (int i = 1; i <= num2; i++) {
             if (i % 15 == 0) {
                 System.out.print("FinRa" + " ");
             } else if (i % 3 == 0) {
