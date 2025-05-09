@@ -1,25 +1,28 @@
-package Murat;
+package Ayhan;
 
 public class Week01_OddOrEven {
+
     public static void main(String[] args) {
-        oddOrEven(20);
+
+        oddOrEven(241);
         oddOrEven(21);
+        oddOrEven(540);
         oddOrEven(0);
         oddOrEven(-2);
         oddOrEven(-21);
-        oddOrEven(-123);
 
     }
-
 
     public static void oddOrEven(int num) {
         if (num == 0) {
-            System.out.println(num +" is zero.");
+            System.out.println(num + " is a zero, and zero #s an even number.");
         } else if (num % 2 == 0) {
-            System.out.println(num +" is an Even Number.");
-        }else{
-            System.out.println(num +" is an Odd Number.");
+            System.out.println(num + " is a even number");
+        } else  {
+            System.out.println(num + " is a odd number");
+        }
+
         }
     }
 
-}
+

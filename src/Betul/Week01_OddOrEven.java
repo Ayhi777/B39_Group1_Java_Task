@@ -1,4 +1,4 @@
-package Yusuf;
+package Betul;
 
 public class Week01_OddOrEven {
 
