@@ -1,6 +1,8 @@
 package Halime;
 
-public class Week01_OddOrEven {
+public class Week2_FinRa {
+
+
     public static void main(String[] args) {
         printFinRa(1, 30);
         printFinRa(5, 25);
@@ -24,3 +26,22 @@ public class Week01_OddOrEven {
         System.out.println();
     }
 }
+//        for (int num1 = 1; num1 <= num2; num1++) {
+//            if (num1 % 15 == 0) {
+//                System.out.print("FinRa" + " ");
+//            } else if (num1 % 3 == 0) {
+//                System.out.print("Fin" + " ");
+//            } else if (num1 % 5 == 0) {
+//                System.out.print("Ra" + " ");
+//            } else {
+//                System.out.print(num1 + " ");
+//
+//            }
+//
+//        }
+//        System.out.println();
+
+
+
+
+
