@@ -2,10 +2,10 @@ package Murat;
 
 public class Week04_Reverse_Negative_Int {
     public static void main(String[] args) {
-        System.out.println(swapNumber(-125));
+        System.out.println(reverseNegativeNumber(-125));
     }
 
-    public static int swapNumber(int num1){
+    public static int reverseNegativeNumber(int num1){
 
         String num1String = String.valueOf(num1);
         String num2String = "-";
