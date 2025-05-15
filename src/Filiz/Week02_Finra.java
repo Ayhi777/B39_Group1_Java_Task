@@ -9,7 +9,7 @@ public class Week02_Finra {
         while (start <= end) {
 
                 System.out.print(" FINRA ");
-            } else if (start % 3 == 0) {
+            } if (start % 3 == 0) {
                 System.out.print(" FIN ");
             } else if (start % 5 == 0) {
                 System.out.print(" RA ");
