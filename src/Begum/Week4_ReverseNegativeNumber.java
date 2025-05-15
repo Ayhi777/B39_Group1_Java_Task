@@ -8,7 +8,7 @@ public class Week4_ReverseNegativeNumber {
     }
     public static int reverseInt(int number) {
 
-        boolean isNegative = number < 0;
+        boolean isNegativeNumber = number < 0;
 
         // Sayıyı pozitif hale getir, stringe çevir ve ters çevir
         String numStr = Integer.toString(Math.abs(number));
@@ -17,7 +17,7 @@ public class Week4_ReverseNegativeNumber {
         //sayiyi tekrar stringden integera ceviriyorum
         int reversedNumber = Integer.valueOf(reversedStr).intValue();
 
-        if (isNegative) {
+        if (isNegativeNumber) {
             return -reversedNumber;
         } else {
             return reversedNumber;
