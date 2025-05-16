@@ -14,7 +14,7 @@ public class Week03_SwapNumber {
                 secondNum = firstNum - secondNum; // 18 - 11 = 7
                 firstNum = firstNum - secondNum; // 18 - 7 = 11
 
-                System.out.println("first number = " + firstNum + ", second number = " + secondNum);
+                System.out.println("first number : " + firstNum + ", second number : " + secondNum);
 
 
 
