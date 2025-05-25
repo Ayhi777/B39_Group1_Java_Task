@@ -10,6 +10,7 @@ public class Week05_CharFrequencyMap {
         System.out.println(result);
     }
 
+
     public static String getFrequencyWithMap(String text) {
         Map<Character, Integer> charCountMap = new LinkedHashMap<>();
 
