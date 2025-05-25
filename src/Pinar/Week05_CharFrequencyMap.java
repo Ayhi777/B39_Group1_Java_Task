@@ -7,7 +7,7 @@ public class Week05_CharFrequencyMap {
     public static void main(String[] args) {
         String input = "AAABBCDD";
         String result = getFrequencyWithMap(input);
-        System.out.println(result);  // A3B2C1D2
+        System.out.println(result);
     }
 
     public static String getFrequencyWithMap(String text) {
