@@ -1,6 +1,6 @@
 package Murat;
 
-public class Week3_Swap_Numbers {
+public class Week03_Swap_Numbers {
     public static void main(String[] args) {
         int a = 5;
         int b = 10;
