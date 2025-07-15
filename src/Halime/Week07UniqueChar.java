@@ -1,8 +1,8 @@
 package Halime;
 
-import static Halime.Week_UniqueChar.UniqueCharacters.unique;
+import static Halime.Week07UniqueChar.UniqueCharacters.unique;
 
-public class Week_UniqueChar {
+public class Week07UniqueChar {
     public static void main(String[] args) {
         String input = "AAABBBCCCDEF";
         System.out.println("Unique characters: " + unique(input)); // DEF
