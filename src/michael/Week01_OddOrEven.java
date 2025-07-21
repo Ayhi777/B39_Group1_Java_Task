@@ -1,6 +1,6 @@
 package michael;
 
-public class Week_01_OddOrEven {
+public class Week01_OddOrEven {
     public static void main(String[] args) {
         System.out.println("Number you provided is "+ identifyOddEven(5));
         System.out.println("Number you provided is "+identifyOddEven(6));
