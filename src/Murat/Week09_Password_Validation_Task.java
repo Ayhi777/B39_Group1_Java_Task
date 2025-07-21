@@ -22,7 +22,7 @@ public class Week09_Password_Validation_Task {
     }
 
     public static boolean isValidPassword(String password){
-        if(password.length() < 6 && !password.contains(" ")) {
+        if(password.length() >= 6 && !password.contains(" ")) {
 
             boolean hasUpperCase = false;
             boolean hasLowerCase = false;
