@@ -9,7 +9,7 @@ public class Week02_Finra {
     }
 
     public static void writeFinra(int start, int end) {
-        while (start <= end) {
+        while (start < end) {
             if (start % 3 == 0 && start % 5 == 0) {
                 System.out.print(" FINRA ");
             } else if (start % 3 == 0) {
